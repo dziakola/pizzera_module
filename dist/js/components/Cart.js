@@ -21,11 +21,9 @@ class Cart {
     thisCart.dom.totalPrice = thisCart.dom.wrapper.querySelectorAll(select.cart.totalPrice);
     thisCart.dom.totalNumber = thisCart.dom.wrapper.querySelector(select.cart.totalNumber);
     thisCart.dom.form = thisCart.dom.wrapper.querySelector(select.cart.form);
-    console.log(thisCart.dom.form);
       
     thisCart.dom.address = thisCart.dom.form.querySelector(select.cart.address);
     thisCart.dom.phone = thisCart.dom.form.querySelector(select.cart.phone);
-    console.log(thisCart.dom.form.address);
       
 
   }
@@ -62,8 +60,7 @@ class Cart {
     thisCart.totalNumber = 0;
     /*cena wszystkich produktów*/
     thisCart.subtotalPrice = 0;
-    //console.log(thisCart.products);
-    //console.log(thisCart.products.amount);
+    
       
     for(let product of thisCart.products){
       thisCart.totalNumber += product.amount;
@@ -78,9 +75,7 @@ class Cart {
       //thisCart.dom.totalPrice.innerHTML = thisCart.totalPrice;
       thisCart.dom.deliveryFee.innerHTML = thisCart.deliveryFee;
     }else{thisCart.dom.deliveryFee.innerHTML = 0;
-      for(let total of thisCart.dom.totalPrice) {total.innerHTML =thisCart.totalPrice; }}
-    //console.log(`ilosc produktow ${totalNumber} cena z dostawą ${thisCart.totalPrice}, cena wszystkich produktów ${subtotalPrice}`);
-      
+      for(let total of thisCart.dom.totalPrice) {total.innerHTML =thisCart.totalPrice; }}      
       
   }
   remove(element){
