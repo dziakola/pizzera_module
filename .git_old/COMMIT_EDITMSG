@@ -1,0 +1,32 @@
+Revert "pizzeria module"
+
+This reverts commit 5457c7034335cde2e4a2f41302c156ecedf93481.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is ahead of 'origin/main' by 2 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   dist/db/app.json
+#	modified:   dist/index.html
+#	deleted:    dist/js/app.js
+#	deleted:    dist/js/components/AmountWidget.js
+#	deleted:    dist/js/components/Cart.js
+#	deleted:    dist/js/components/CartProduct.js
+#	deleted:    dist/js/components/Product.js
+#	renamed:    dist/js/utils.js -> dist/js/functions.js
+#	new file:   dist/js/script.js
+#	deleted:    dist/js/settings.js
+#	modified:   src/index.html
+#	deleted:    src/js/app.js
+#	deleted:    src/js/components/AmountWidget.js
+#	deleted:    src/js/components/Cart.js
+#	deleted:    src/js/components/CartProduct.js
+#	deleted:    src/js/components/Product.js
+#	renamed:    src/js/utils.js -> src/js/functions.js
+#	new file:   src/js/script.js
+#	deleted:    src/js/settings.js
+#

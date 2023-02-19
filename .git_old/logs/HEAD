@@ -1,0 +1,14 @@
+0000000000000000000000000000000000000000 26c7d13c901366fc2bc8b1d88055dfb035cbf1c0 dziakola <magdalena.dziakola@gmail.com> 1674989868 +0100	commit (initial): add all with widget amount
+26c7d13c901366fc2bc8b1d88055dfb035cbf1c0 0c0eb3f3ff4ecc938ea2cfd1043ac9e99e1d0898 dziakola <magdalena.dziakola@gmail.com> 1675003995 +0100	commit: git accordion
+0c0eb3f3ff4ecc938ea2cfd1043ac9e99e1d0898 b6815dc5f5c83172b09155b0f6c60e1099d3d9d0 dziakola <magdalena.dziakola@gmail.com> 1675011729 +0100	commit: prepare product summary for cart
+b6815dc5f5c83172b09155b0f6c60e1099d3d9d0 65758283769600b700432d5b19b1c1fbce24f731 dziakola <magdalena.dziakola@gmail.com> 1675170398 +0100	commit: add prepareCartProductParams
+65758283769600b700432d5b19b1c1fbce24f731 a15c177d27a9f8a639a9a2c70357805b07dc7ee2 dziakola <magdalena.dziakola@gmail.com> 1675258650 +0100	commit: add checkout
+a15c177d27a9f8a639a9a2c70357805b07dc7ee2 4f633b37b45ccbbd8b3b46669844149b73ff33a0 dziakola <magdalena.dziakola@gmail.com> 1675283104 +0100	commit: fixed cartAdd
+4f633b37b45ccbbd8b3b46669844149b73ff33a0 3b915410c932b09f644412c33e30f3b88ccd32fe dziakola <magdalena.dziakola@gmail.com> 1675347297 +0100	commit: add checkout widget amount
+3b915410c932b09f644412c33e30f3b88ccd32fe ae504e529a70f1c2190b8beb3f5eb85183f5b1e2 dziakola <magdalena.dziakola@gmail.com> 1675372114 +0100	commit: add checkout sums configuration
+ae504e529a70f1c2190b8beb3f5eb85183f5b1e2 dcfc1345c7f575b57bf6bef49377263210c9f89b dziakola <magdalena.dziakola@gmail.com> 1675424227 +0100	commit: add removal
+dcfc1345c7f575b57bf6bef49377263210c9f89b 1416be6322e53ad89f50b38c5e244e20489f5a46 dziakola <magdalena.dziakola@gmail.com> 1675952829 +0100	commit: add server configuration and payload
+1416be6322e53ad89f50b38c5e244e20489f5a46 5457c7034335cde2e4a2f41302c156ecedf93481 dziakola <magdalena.dziakola@gmail.com> 1676815175 +0100	commit: pizzeria module
+5457c7034335cde2e4a2f41302c156ecedf93481 fac788a82710ea0364545b272531a57f3c4a347b dziakola <magdalena.dziakola@gmail.com> 1676815395 +0100	revert: tttttt "pizzeria module"
+fac788a82710ea0364545b272531a57f3c4a347b acfcabb01914f919b9b95b42da66ef0b565ebf80 dziakola <magdalena.dziakola@gmail.com> 1676815619 +0100	revert: Revert "tttttt "pizzeria module""
+acfcabb01914f919b9b95b42da66ef0b565ebf80 7645597535a99484e07d99da12addd71f6d6aa40 dziakola <magdalena.dziakola@gmail.com> 1676815650 +0100	revert: Revert "pizzeria module"
