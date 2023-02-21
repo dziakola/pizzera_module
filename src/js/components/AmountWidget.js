@@ -22,8 +22,7 @@ class AmountWidget extends BaseWidget {
     return parseInt(value);
   }
   isValid(value){
-    return !isNaN(value)
-    && value >= settings.amountWidget.defaultMin
+    return value >= settings.amountWidget.defaultMin
     && value <= settings.amountWidget.defaultMax;
   }
   //sprawdzenie jaki to rodzaj inputa, metoda sprawi, że bieżąca wartość widgetu zostanie wyświetlona na stronie

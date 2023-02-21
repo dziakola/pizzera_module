@@ -8,7 +8,6 @@ class Cart {
     thisCart.products = [];
     thisCart.getElements(element);
     thisCart.initActions();
-      
   }
   getElements(element){
     const thisCart = this;
