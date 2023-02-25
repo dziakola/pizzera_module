@@ -173,6 +173,10 @@
       }
   
     }
+
+    &.reserved {
+      background: lighten($color-success, 10%),;
+    }
   }
   
   [data-table="1"] {

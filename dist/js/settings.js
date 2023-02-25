@@ -38,11 +38,20 @@ export const select = {
       input: 'input[type="range"]',
       output: '.output',
     },
+    starters: {
+      wrapper: '.starters',
+      starters: '[name="starter"]',
+    }
   },
   booking: {
     peopleAmount: '.people-amount',
     hoursAmount: '.hours-amount',
     tables: '.floor-plan .table',
+    floorPlan: '.floor-plan',
+    phone: '.order-confirmation [name="phone"]',
+    address: '.order-confirmation [name="address"]',
+    formSubmit: '.order-confirmation [type="submit"]',
+    
   },
   nav: {
     links: '.main-nav a',
@@ -81,6 +90,7 @@ export const classNames = {
   booking: {
     loading: 'loading',
     tableBooked: 'booked',
+    tableReserved: 'reserved',
   },
   nav: {
     active: 'active',

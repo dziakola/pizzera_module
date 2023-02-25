@@ -16,10 +16,15 @@ class HourPicker extends BaseWidget{
   initPlugin(){
     const thisWidget = this;
     // eslint-disable-next-line no-undef
-    rangeSlider.create(thisWidget.dom.input);
-    thisWidget.dom.input.addEventListener('input', function(){
-      thisWidget.value = thisWidget.dom.input.value;
-    });
+    rangeSlider.create(
+      thisWidget.dom.input,
+      {
+        onSlide: function(value){
+          thisWidget.value = value;
+          thisWidget.dom.input.value = value;
+        },
+      }
+    );
   }
 
   parseValue(value){
